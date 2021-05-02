@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "172718561619",
+    "project_id": "login-animal-8fce1",
+    "storage_bucket": "login-animal-8fce1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172718561619:android:2cdbfdc7dd0d4fb3db29a6",
+        "android_client_info": {
+          "package_name": "com.example.login_animal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172718561619-d7ubne2kpquodu3j3d0i361cfihsf1eq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5OaLrLxyqrkdvSPlY6dM3GFuu8jR9sqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172718561619-d7ubne2kpquodu3j3d0i361cfihsf1eq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
