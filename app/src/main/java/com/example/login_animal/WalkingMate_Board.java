@@ -9,6 +9,6 @@ public class WalkingMate_Board extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_walking_mate_board);
+        setContentView(R.layout.walking_mate_board);
     }
 }
