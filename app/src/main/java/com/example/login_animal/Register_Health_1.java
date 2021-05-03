@@ -22,7 +22,7 @@ public class Register_Health_1 extends AppCompatActivity {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                intent = new Intent(getApplicationContext(), MainActivity.class);
+                intent = new Intent(getApplicationContext(), Main.class);
                 startActivity(intent);
             }
         });

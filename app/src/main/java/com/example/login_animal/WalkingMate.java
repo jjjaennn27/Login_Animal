@@ -14,7 +14,7 @@ public class WalkingMate extends AppCompatActivity implements View.OnClickListen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_walking_mate);
+        setContentView(R.layout.walking_mate);
 
         btnWrite = findViewById(R.id.btnWrite);
         btnWrite.setOnClickListener(this);

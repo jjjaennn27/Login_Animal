@@ -26,7 +26,7 @@ public class Diary  extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_diary);
+        setContentView(R.layout.diary);
 
         btnCamera = (Button)findViewById(R.id.btnCamera);
         btnImage = (Button)findViewById(R.id.btnimage);

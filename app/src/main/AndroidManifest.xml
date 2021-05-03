@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Login_Animal">
-        <activity android:name=".WalkingMate"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".WalkingMate" />
         <activity android:name=".WalkingMate_Board" />
 
         <meta-data
@@ -34,7 +35,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".Main" />
         <activity android:name=".Register_Health" />
         <activity android:name=".Register_Health_1" />
         <activity android:name=".Register_Food" />

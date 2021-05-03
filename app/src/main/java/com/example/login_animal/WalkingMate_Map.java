@@ -96,7 +96,7 @@ public class WalkingMate_Map extends AppCompatActivity
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON,
                 WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
-        setContentView(R.layout.activity_walking_mate_map);
+        setContentView(R.layout.walking_mate_map);
 
         previous_marker = new ArrayList<Marker>();
 
