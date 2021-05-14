@@ -6,9 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+
 public class Main extends AppCompatActivity implements View.OnClickListener {
     ImageButton btnFood, btnSnack, btnWalk, btnHealth;
-    Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,20 +29,20 @@ public class Main extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.imgBtn1:
-                intent = new Intent(this, Register_Food.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(Main.this, Register_Food.class);
+                startActivity(intent1);
                 break;
             case R.id.imgBtn2:
-                intent = new Intent(this, Register_Snack.class);
-                startActivity(intent);
+                Intent intent2 = new Intent(Main.this, Register_Snack.class);
+                startActivity(intent2);
                 break;
             case R.id.imgBtn3:
-                intent = new Intent(this, Register_Run.class);
-                startActivity(intent);
+                Intent intent3 = new Intent(Main.this, Register_Run.class);
+                startActivity(intent3);
                 break;
             case R.id.imgBtn4:
-                intent = new Intent(this, Register_Health.class);
-                startActivity(intent);
+                Intent intent4 = new Intent(Main.this, Register_Health.class);
+                startActivity(intent4);
                 break;
             default: break;
         }
